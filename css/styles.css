@@ -639,7 +639,7 @@ footer {
   line-height: calc(23 / 20);
   color: var(--second-text-color);
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .modal-form {
   display: block;
@@ -650,7 +650,12 @@ footer {
   display: block;
   margin-bottom: 10px;
 }
-
+.not-margin {
+  margin-bottom: 0;
+}
+.form-field .modal-label {
+  margin-bottom: 4px;
+}
 .modal-input {
   width: 100%;
   height: 40px;
@@ -675,8 +680,6 @@ footer {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-
-  margin-bottom: 4px;
 }
 .modal-text::placeholder {
   font-size: 12px;
